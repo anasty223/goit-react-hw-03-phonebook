@@ -1,0 +1,26 @@
+.ContactItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px 5px;
+  width: 100%;
+  background-color: rgb(199, 198, 198);
+  border: 1px solid black;
+}
+
+.ContactItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.button {
+  background-color: white;
+  border: none;
+  padding: 5px 15px;
+  margin: auto;
+  border: 1px solid black;
+}
